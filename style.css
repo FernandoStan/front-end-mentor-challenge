@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,input,select,button,textarea
+{
+    font-family: 'Roboto', sans-serif;  
+}
+
+html,body
+{
+    background-color: hsl(185, 75%, 39%);
+
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul,li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+#bg-1
+{
+    position: absolute;
+
+    left: -100px;
+    top: -400px;
+}
+
+#bg-2
+{
+    position: absolute;
+
+    right: -200px;
+    bottom: -500px;
+}
+
+.container
+{
+    position: relative;
+}
+
+.container .img-header
+{
+    border-radius: 40px;
+}
+
+.attribution
+{
+    position: absolute;
+    bottom: 50px;
+}
+
+.container
+{
+    margin-top: 250px;
+
+    background: white;
+
+    border-radius: 8px;
+}
+
+.container #img-header
+{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.container .center-container
+{
+    margin-top: -55px;
+    
+    text-align: center;
+}
+
+.container .center-container #img-profile
+{
+    margin-bottom: 20px;
+
+    border-radius: 50% !important;
+}
+
+.container .center-container span
+{
+    margin-left: 8px;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    color: hsl(229, 23%, 23%);
+}
+
+.container .center-container #span-26
+{
+    font-size: 18px;
+    font-weight: 400;
+
+    color: hsl(227, 10%, 46%);
+}
+
+.container .center-container p
+{
+    margin-top: 12px;
+    margin-bottom: 20px;
+
+    font-size: 18px;
+
+    color: hsl(227, 10%, 46%);
+}
+
+.container .footer
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border-top: 1px solid hsl(0, 0%, 59%);
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .footer #li-2
+{
+    margin-left: 50px;
+    margin-right: 60px;
+}
+
+.container .footer li h2
+{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container .footer li p
+{
+    margin-top: 5px;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    color: hsl(227, 10%, 46%);
+}
